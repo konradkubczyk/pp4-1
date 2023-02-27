@@ -37,4 +37,4 @@ zajecia.zapisz_studenta("Student J")
 
 print(zajecia.studenci) # ['Student A', 'Student B', 'Student C', 'Student D', 'Student E', 'Student F', 'Student G', 'Student H', 'Student I', 'Student J']
 
-zajecia.zapisz_studenta("Student K") # Exception: Limit studentów na zajęcia został osiągnięty, nie można zapisać studenta
+zajecia.zapisz_studenta("Student K") # Exception: Limit studentów zapisanych na zajęcia został osiągnięty, nie można dopisać kolejnego studenta
