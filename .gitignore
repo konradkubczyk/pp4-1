@@ -1,2 +1,5 @@
 # Wynikowe pliki tekstowe
 *.txt
+
+# Cache
+__pycache__/
