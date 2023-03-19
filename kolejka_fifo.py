@@ -21,15 +21,15 @@ def pobierz_z_kolejki():
 
 # Testy ----------------------------
 
-dodaj_do_kolejki(1)
-dodaj_do_kolejki(2)
-dodaj_do_kolejki(3)
+# dodaj_do_kolejki(1)
+# dodaj_do_kolejki(2)
+# dodaj_do_kolejki(3)
 
-print(pobierz_z_kolejki()) # 1
+# print(pobierz_z_kolejki()) # 1
 
-print(kolejka) # [2, 3]
+# print(kolejka) # [2, 3]
 
-pobierz_z_kolejki()
-pobierz_z_kolejki()
+# pobierz_z_kolejki()
+# pobierz_z_kolejki()
 
-print(pobierz_z_kolejki()) # None
+# print(pobierz_z_kolejki()) # None

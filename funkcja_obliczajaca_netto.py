@@ -9,5 +9,5 @@ def oblicz_netto(cena_brutto, stawka_podatku) -> float:
 
 # Testy ----------------------------
 
-print(oblicz_netto(100, 23)) # 81.30081300813008
-print(oblicz_netto(100, 8)) # 92.59259259259258
+# print(oblicz_netto(100, 23)) # 81.30081300813008
+# print(oblicz_netto(100, 8)) # 92.59259259259258
