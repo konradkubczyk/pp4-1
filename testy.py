@@ -16,6 +16,7 @@ class Testy(unittest.TestCase):
         self.assertEqual(kolejka_fifo.pobierz_z_kolejki(), None)
         kolejka_fifo.dodaj_do_kolejki(1)
         kolejka_fifo.dodaj_do_kolejki(2)
+        self.assertEqual(kolejka_fifo.kolejka, [1, 2])
         self.assertEqual(kolejka_fifo.pobierz_z_kolejki(), 1)
         self.assertEqual(kolejka_fifo.pobierz_z_kolejki(), 2)
         self.assertEqual(kolejka_fifo.pobierz_z_kolejki(), None)
